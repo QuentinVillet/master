@@ -2,12 +2,12 @@ import yfinance as yf
 import pandas as pd
 import streamlit as st
 # from datetime import date
-From PIL import Image
+from PIL import Image
 
 
 image = Image.open('traxer-No9sjMu5zpA-unsplash.jpg')
 
-st.image(image, use_column_width= True)
+st.image(image, use_container_width= True)
 
 st.write("""
 ## Simple Stock Pricing App for Fun :)
