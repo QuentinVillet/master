@@ -37,5 +37,5 @@ else:
         st.warning(f"No data found for {ticker_symbol} in the given date range.")
     else:
         # Display the selected feature data as a line chart
-        st.write(f"### {ticker_symbol} - {selected_feature} Over Time")
+        st.write(f"### **{ticker_symbol}** - **{selected_feature}** From {start_date} to {end_date}")
         st.line_chart(ticker_df[selected_feature])
